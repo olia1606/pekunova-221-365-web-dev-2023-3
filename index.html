@@ -1,11 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/print.css" media="print">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container d-flex">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="sales.html">Акции</a></li>
+                </ul>   
+            </nav>
+            <div class="profile">
+                <a href="#">Оформить заказ</a>
+            </div>
+        </div>
+    </header>
+    <main class="container d-flex">
+        <aside class="sidebar">
+            <form class="form"> 
+                <fieldset> 
+                    <legend>Поставщики</legend> 
+                    <div class="form-group"> 
+                        <input type="checkbox" name="manufacturer" id="manufacturer1"> 
+                        <label for="manufacturer1">Поставщики 1</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="checkbox" name="manufacturer" id="manufacturer2"> 
+                        <label for="manufacturer2">Поставщики 2</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="checkbox" name="manufacturer" id="manufacturer3"> 
+                        <label for="manufacturer3">Поставщики 3</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="checkbox" name="manufacturer" id="manufacturer4"> 
+                        <label for="manufacturer4">Поставщики 4</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="checkbox" name="manufacturer" id="manufacturer5"> 
+                        <label for="manufacturer5">Поставщики 5</label> 
+                    </div> 
+                </fieldset> 
+                <fieldset> 
+                    <legend>Вид цветов</legend> 
+                    <div class="form-group"> 
+                        <input type="radio" name="group5" id="daybirth"> 
+                        <label for="daybirth">Розы</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="radio" name="group5" id="newyear"> 
+                        <label for="newyear">Гипсофилы</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="radio" name="group5" id="weeding"> 
+                        <label for="weeding">Пион</label> 
+                    </div> 
+                    <div class="form-group"> 
+                        <input type="radio" name="group5" id="halloween"> 
+                        <label for="halloween">Гартензии</label> 
+                    </div> 
+                </fieldset> 
+                <button class="btn">Применить</button> 
+            </form> 
+        </aside>
+        <div class="page-content" id="Каталог">
+            <p class="page-content__text">
+                Цветочные магазины предлагают красивые и свежие цветы на все случаи жизни Они являются незаменимыми помощниками в создании праздничного настроения. Эффективная реклама способствует увеличению продаж магазина цветов. В этой статье мы продемонстрируем примеры рекламных текстов и слоганов, которые сделают ваш бизнес прибыльным и узнаваемым.
+            </p>
+            <h1 class="products-header">Цветочки</h1>
+            <div class="products">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./image/image.png" alt="Пионы">
+                    </div>
+                    <div class="product-details">
+                        <header>Пионы</header>
+                        <p class="product-info">
+                            Букет из пионов - это изысканное сочетание нежности, красоты и изысканности. Пионы символизируют богатство и процветание, олицетворяя любовь, уважение и доброжелательность. 
+                        </p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">15000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+                <div class="product-card">
+                        <div class="product-image">
+                            <img src="./image/image(1).png" alt="Букетик">
+                        </div>
+                        <div class="product-details">
+                            <header>Букетик</header>
+                            <p class="product-info">
+                                Маленький букет - это нежное и изящное сочетание небольших, но прекрасных цветов, которые могут стать украшением для любого дня. Он может быть самым трогательным и милым подарком, который добавит радости и красок в повседневную жизнь. 
+                            </p>
+                            <div class="action">
+                                <button class="buy-btn">
+                                    <span class="price">10000 &#8381;</span><span class="buy">Заказать</span>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./image/image(2).png" alt="Кустовые розы">
+                    </div>
+                    <div class="product-details">
+                        <header>Кустовые розы</header>
+                        <p class="product-info">
+                            Букет из кустовых роз - это изысканное сочетание изящества и красоты, которое олицетворяет любовь, нежность и романтику. 
+                        </p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">10000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./image/image(3).png" alt="Гартензии с гипсофилами">
+                    </div>
+                    <div class="product-details">
+                        <header>Гартензии с гипсофилами</header>
+                        <p class="product-info">
+                            Букет из кустовых роз может стать удивительным подарком для особого события, такого как день рождения, годовщина, свадебная церемония или просто чтобы порадовать любимого человека. 
+                        </p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">10000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./image/image(4).png" alt="Красные и чёрные розы">
+                    </div>
+                    <div class="product-details">
+                        <header>Красные и чёрные розы</header>
+                        <p class="product-info">
+                            Букет из кустовых роз - это изысканное сочетание изящества и красоты, которое олицетворяет любовь, нежность и романтику. 
+                        </p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">10000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./image/image(5).png" alt="Белые розы">
+                    </div>
+                    <div class="product-details">
+                        <header>Белые розы</header>
+                        <p class="product-info">
+                            Букет из кустовых роз - это изысканное сочетание изящества и красоты, которое олицетворяет любовь, нежность и романтику. 
+                        </p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">10000 &#8381;</span><span class="buy">Заказать</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>                   
+    </main>
+    <footer class="footer" id="Контакты">
+        <div class="container footer__wrapper">
+            <p>+ 7 (999) 999-99-99</p>
+            <p> info@flovers.ru</p>
+            <p>&copy; 2023 Цветочки от Олечки</p>
+        </div>
+    </footer>
 </body>
 </html>

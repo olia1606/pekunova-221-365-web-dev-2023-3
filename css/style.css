@@ -1,0 +1,199 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    color: #38150f;
+}
+
+.header {
+    background-color: #fad7c1;
+    padding: 1.25rem 0;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+}
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #38150f;
+    font-weight: bold;
+}
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline;
+    margin-right: 5px;
+}
+.profile {
+    margin-left: auto;
+}
+.sidebar {
+    width: 15rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.sidebar fieldset {
+    border: none;
+}
+.sidebar legend {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.form-group{
+    font-size: 1rem;
+    padding:4px;
+}
+.page-content {
+    padding: 1px;
+    padding: 1rem;
+}
+
+.btn {
+    color: white;   
+    background-color:  #38150f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.products-header{
+    text-shadow: #38150f 13px 6px 22px;
+    color: #38150f;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product-card {
+    display: flex;
+    height: 23rem;
+    width: 31rem;
+    background-color: #fad7c1;
+    border-radius: 5px;
+    color: #38150f;
+    box-shadow: 30px 30px 100px #fad7c1;
+}
+.product-image {
+    width: 65%;
+    height: 100%;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.product-details header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 18px;
+    text-align: justify;
+    height: 67%;
+    overflow: auto;
+}
+
+.buy-btn {
+    color: #38150f;   
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.price {
+    background-color: #fad7c1;
+    padding: 0.625rem 1.25rem;
+    display: inline-block;
+}
+.buy {
+    background-color: #38150f;
+    color: white;
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+}
+
+.footer {
+    background-color: #fad7c1;
+    padding: 1.25rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.d-flex {
+    display: flex;
+}
+
+.sales {
+    border: 2px solid #fad7c1;
+    height: 10rem;
+    width: 20rem;
+    box-shadow: 6px 6px 100px #fad7c1;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.akccii {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 230px;
+    padding: 240px 0px;
+    justify-content: center;
+}   
+
+.page-content__text {
+    margin-bottom: 15px;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
