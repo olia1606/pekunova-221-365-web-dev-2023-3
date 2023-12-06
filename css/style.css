@@ -1,4 +1,3 @@
-/* montserrat-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Montserrat';
@@ -8,7 +7,8 @@
 }
 
 * {
-    font-family: 'Open Sans';
+    font-family: 'Montserrat';
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #38150f;
@@ -46,7 +46,6 @@
 .sidebar {
     width: 15rem;
     padding-top: 1rem;
-    box-sizing: border-box;
     flex-shrink: 0;
 }
 .sidebar fieldset {
@@ -61,7 +60,6 @@
     padding:4px;
 }
 .page-content {
-    padding: 1px;
     padding: 1rem;
 }
 
@@ -111,7 +109,6 @@
     width: 70%;
     height: 100%;
     padding: 1rem;
-    box-sizing: border-box;
 }
 
 .product-details header {
@@ -123,7 +120,6 @@
     font-size: 18px;
     text-align: justify;
     height: 67%;
-    overflow: auto;
 }
 
 .buy-btn {
@@ -131,7 +127,6 @@
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
-    overflow: hidden;
     cursor:pointer;
     outline: none;
     border: none;
